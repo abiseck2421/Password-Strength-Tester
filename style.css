@@ -1,0 +1,88 @@
+/* === GENERAL PAGE STYLING === */
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* === MAIN CONTAINER === */
+.container {
+    background: #fff;
+    padding: 2rem 2.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    width: 90%;
+    max-width: 700px;
+    box-sizing: border-box;
+}
+
+/* === HEADING === */
+h2 {
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+/* === LABEL === */
+label {
+    display: block;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+/* === INPUT FIELD === */
+input[type="text"] {
+    width: 100%;
+    padding: 0.7rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+/* === BUTTON === */
+button {
+    width: 100%;
+    padding: 0.7rem;
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+/* === BUTTON HOVER EFFECT === */
+button:hover {
+    background: #0056b3;
+}
+
+/* === FEEDBACK MESSAGE === */
+.feedback {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+/* === RESPONSIVE DESIGN === */
+
+/* For tablets and smaller laptops */
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 1.5rem;
+    }
+}
+
+/* For mobile phones */
+@media (max-width: 480px) {
+    .container {
+        width: 95%;
+        padding: 1rem;
+    }
+}
